@@ -4,57 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akshay Shukla's Site</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="icon" href="Favicon.jpg">
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="assets/images/Favicon.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="top-container">
-        <img class="top-cloud" src="cloud.png" alt="cloud-img">
         <h1>I'm Akshay</h1>
         <h2>a web developer.</h2>
-        <img class="bottom-cloud" src="cloud.png" alt="cloud-img">
-        <img class="mountain" src="mountain.png" alt="mountain-image">
     </div>
     <div class="middle-container">
         <div class="profile">
-            <img src="299711350_441694108016847_7019111225286382080_n-modified.png" alt="Image of Akshay">
-            <h2>Hello.</h2>
-            <p class="Intro">I am a student who wants to pursue a carrier in Computer Science. I am currently learning web development.</p>
+            <img src="assets/images/Akshay.png" alt="Image of Akshay">
+            <h2>Hello</h2>
+            <p class="Intro">I am a student who wants to pursue a carrier in Computer Science. I am currently contributing in web development.</p>
         </div>
         <hr>
         <div class="skills">
             <h2>My Skills.</h2>
             <div class="skill-row">
-                <img class="Computer-Image" src="wepik-export-202307121151417HIU.png" alt="Computer Image">
+                <img class="Computer-Image" src="assets/images/HTMLComputer.png" alt="Computer Image">
                 <h3>Web Development</h3>
-                <p>I have learned HTML, CSS, and JavaScript. I am on my way to completing my Web Development course to become a developer.</p>
+                <p>I have learned Web Development and Solidity. I am looking forward to build some cool things in near future. Stay tuned for those.</p>
             </div>
             <div class="skill-row">
-                <img class="Computer-Image2" src="computer-modified.png" alt="Computer Image">
+                <img class="Computer-Image2" src="assets/images/computer-modified.png" alt="Computer Image">
                 <h3>Other programming languages</h3>
-                <p>I know some major programming languages such as C, C++, and Python and want to learn many more in the future as well.</p>
+                <p>I know major programming languages such as Java, Swift, C, C++, and Python and want to learn many more in the future as well.</p>
             </div>
         </div>
         <hr>
         <div class="contact-me">
             <h2>Get In Touch</h2>
-            <h3>If I can help you.</h3>
             <p class="contact-message">If you think that I can help you with anything, let me know. </p>
-            <a class="btn" href="mailto:akshayshukla734@gmail.com">CONTACT ME</a>
+            <a class="btn" href="mailto:akshaycommits@gmail.com">CONTACT ME</a>
         </div>
     </div>
 
 
-    <div class="bottom-container">
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;
-        <a class="footer-link" href="https://www.linkedin.com/in/akshays734/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/AkshayTweetS734">Twitter</a>
-        <a class="footer-link" href="https://github.com/AkshayS734">Github</a>
-        <p class="copyright">©2023 Akshay Shukla.</p>
-    </div>
+    <footer class = "footer-container">
+        <a href="https://www.instagram.com/akshayposts" class="footer-link" target="_blank" rel="noopener">
+            <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+        <a class="footer-link" href="https://www.linkedin.com/in/akshaysshukla/" target="_blank" rel="noopener">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+        <a class="footer-link" href="https://twitter.com/akshaysshukla" target="_blank" rel="noopener">
+            <i class="fa-brands fa-twitter"></i> Twitter
+        </a>
+        <a class="footer-link" href="https://github.com/AkshayS734" target="_blank" rel="noopener">
+            <i class="fa-brands fa-github"></i> Github
+        </a>
+        <p class="copyright">©<span id="year"></span> Akshay Shukla</p>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
 
     
 </body>
