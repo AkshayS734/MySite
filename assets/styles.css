@@ -31,11 +31,11 @@ h3{
 p{
     line-height: 2;
 }
-.top-container{
+/* .top-container{
     background-color: #E4F9F5;
     position:relative;
     padding-top: 100px;
-}
+} */
 .Intro{
     width:30%;
     margin:auto
@@ -48,12 +48,12 @@ p{
     padding:50px 0 20px;
 }
 .bottom-cloud{
-    position: absolute;
+    position: relative;
     left:20%;
     bottom:60%;
 }
 .top-cloud{
-    position:absolute;
+    position:relative;
     right:300px;
     top:50px;
 }
@@ -129,3 +129,9 @@ a:hover{
     border-radius: 20px;
     text-decoration: none;
  }
+.footer-container {
+    padding: 30px 0 10px 0;
+}
+.copyright{
+    color: #66BFBF;
+}
